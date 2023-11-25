@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="titles.js"></script>
+    <title>nawfaloz</title>
+</head>
+<body>
+    <main id="indexmain">
+        <div id="welcome">
+            <div id="welcometext">
+            <h1>Welcome!</h1>
+            <h2>sub-title</h2>
+            </div>
+        </div>
+        <div id="about">
+            <div id="headingtext">About Us</div>
+            <p id="aboutcontent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab possimus, dicta amet, illum eius deleniti nobis non quas excepturi corporis adipisci ut rem laborum aliquid veniam, ex modi dolorem mollitia praesentium tempora aspernatur facilis soluta labore itaque. Enim voluptate corporis ad libero porro hic, ullam at ipsam voluptas, cum nam.</p>
+        </div>
+        <div id="links">
+            <div id="headingtext">Links</div>
+            <div id="linkcontent"></div>
+        </div>
+    </main>
+    <footer>
+        <div id = "rights"></div>
+    </footer>
+</body>
+<script>
+    document.title = titles["title"];
+    document.getElementById("rights").innerHTML = `Made With Love by ${titles["author"]} <br> 2023 - 1445`
+    var container = document.getElementById("linkcontent")
+    for(let video in titles) {
+        if(video > 0){
+        container.innerHTML+=`<div><a href="player.html?id=${video}">${video}. ${titles[video]}</a></div>`}
+    }
+    container.style = `margin-top:1vh;display:grid; grid-template-rows:repeat(${titles[-1]}, auto);grid-row-gap:1vh;`
+</script>
+</html>

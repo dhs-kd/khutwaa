@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eceff4;
+    color:#4c566a;
+}
+
+a, a:link ,a:visited, a:active{
+    text-decoration: none;
+    color: #4c566a;
+    font-weight: bold;
+}
+
+#playerframe {
+    display: grid;
+    grid-gap: 1vh;
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+    justify-content: center;
+    margin: auto auto auto auto;
+    min-width: fit-content;
+    min-height: fit-content;
+}
+
+#playercaption {
+    margin-top: 1vh;
+    justify-self: start;
+}
+#playerbutton {
+    justify-self: end;
+    margin-bottom: 1vh;
+}
+
+footer {
+    margin-top: 1vh;
+    border-top: 0.5vh solid #4c566a;
+}
+footer div {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1vh;
+    text-align: center;
+}
+button {
+    color:#4c566a;
+    font-weight: bold;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #4c566a;
+    border-width: 3px;
+    min-height: 5vh;
+    min-width: 10vw;
+}
+
+#indexmain {
+    display: grid;
+    grid-template-rows: 50vh auto auto;
+}
+
+#welcome {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+    color:#eceff4;
+    background-image: url("assets/bg.jpg");
+}
+
+#welcometext {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-self: center;
+    text-align: center;
+}
+
+#headingtext {
+    margin-top: 1vh;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+    text-decoration-color: #88c0d0;
+    text-decoration-thickness: 0.4vh;
+}

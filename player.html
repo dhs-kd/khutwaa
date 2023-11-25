@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="titles.js"></script>
+</head>
+<body>
+    <main id="playerframe">
+        <div id="playercaption">
+
+        </div>
+        <div id="player">
+            <video id="video" autoplay controls></video>
+        </div>
+        <a id="playerbutton" href="index.html"><button>Go Back</button></a>
+    </main>
+    <footer>
+        <div id="rights"></div>
+    </footer>
+</body>
+<script>
+    document.title = titles["title"];
+    document.getElementById("rights").innerHTML = `Made With Love by ${titles["author"]} <br> 2023 - 1445`
+    const id = new URLSearchParams(window.location.search).get('id');
+    const video = document.getElementById("video");
+    video.src=`assets/${id}.mp4`;
+    document.getElementById("playercaption").innerText=titles[id]
+</script>
+</html>
