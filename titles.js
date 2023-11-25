@@ -1,4 +1,7 @@
 const titles = {
+    "mainheading":"Hi!",
+    "subtitle":"subtitle",
+    "aboutcontent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab possimus, dicta amet, illum eius deleniti nobis non quas excepturi corporis adipisci ut rem laborum aliquid veniam, ex modi dolorem mollitia praesentium tempora aspernatur facilis soluta labore itaque. Enim voluptate corporis ad libero porro hic, ullam at ipsam voluptas, cum nam.",
     "author":"sadoon",
     "title":"nawfalozz",
     1:"كلية التمريض و الطب",

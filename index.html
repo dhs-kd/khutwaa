@@ -10,13 +10,13 @@
     <main id="indexmain">
         <div id="welcome">
             <div id="welcometext">
-            <h1>Welcome!</h1>
-            <h2>sub-title</h2>
+            <h1 id="mainheading"></h1>
+            <h2 id="subtitle"></h2>
             </div>
         </div>
         <div id="about">
             <div id="headingtext">About Us</div>
-            <p id="aboutcontent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab possimus, dicta amet, illum eius deleniti nobis non quas excepturi corporis adipisci ut rem laborum aliquid veniam, ex modi dolorem mollitia praesentium tempora aspernatur facilis soluta labore itaque. Enim voluptate corporis ad libero porro hic, ullam at ipsam voluptas, cum nam.</p>
+            <p id="aboutcontent"></p>
         </div>
         <div id="links">
             <div id="headingtext">Links</div>
@@ -29,6 +29,9 @@
 </body>
 <script>
     document.title = titles["title"];
+    document.getElementById("mainheading").innerHTML = titles["mainheading"]
+    document.getElementById("subtitle").innerHTML = titles["subtitle"]    
+    document.getElementById("aboutcontent").innerHTML = titles["aboutcontent"]
     document.getElementById("rights").innerHTML = `Made With Love by ${titles["author"]} <br> 2023 - 1445`
     var container = document.getElementById("linkcontent")
     for(let video in titles) {
