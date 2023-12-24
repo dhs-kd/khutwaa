@@ -1,7 +1,7 @@
 const titles = {
     "mainheading":"Hi!",
-    "subtitle":"subtitle",
-    "aboutcontent":"خُطوة منّا إليك نخطوها، بلادٌ ستزمّلكُ دومًا، أهلًا بكَ لأردننا، لجامعتنا، ولمبادرتنا، مبادرة 'خطوة' ، فلتخطوها أنتَ باحثًا عن شغفٍ لأجله سعيت، ونساعدك نحن هُنا بخريطة تدلّك بعد نور قلبك، وفيديوهات مصوّرة توصلك لكلِّ الوجهات الممكنة في جامعتنا الأم.<br /> وفّقك الله،<br /> كُلُّ الحب، <br /> أعضاء مبادرة خُطوة <br />A step closer to you, in a country that will always serve you. Welcome to our beloved country Jordan, our university, and to our initiative “Khutwa”— a step. A step you shall take towards the passion you’ve been looking for. We’re here to help you by providing you with maps and videos that wil navigate you to each building on campus.<br />Good luck.<br /> With all love,<br /> The members of the “Khutwa” initiative.",
+    "subtitle":"",
+    "aboutcontent":"خُطوة منّا إليك نخطوها، بلادٌ ستزمّلكُ دومًا، أهلًا بكَ لأردننا، لجامعتنا، ولمبادرتنا، مبادرة 'خطوة' ، فلتخطوها أنتَ باحثًا عن شغفٍ لأجله سعيت، ونساعدك نحن هُنا بخريطة تدلّك بعد نور قلبك، وفيديوهات مصوّرة توصلك لكلِّ الوجهات الممكنة في جامعتنا الأم.<br /> وفّقك الله،<br /> كُلُّ الحب، <br /> أعضاء مبادرة خُطوة <br/><br />A step closer to you, in a country that will always serve you. Welcome to our beloved country Jordan, our university, and to our initiative “Khutwa”— a step. A step you shall take towards the passion you’ve been looking for. We’re here to help you by providing you with maps and videos that wil navigate you to each building on campus.<br />Good luck.<br /> With all love,<br /> The members of the “Khutwa” initiative.",
     "author":"sadoon",
     "title":"nawfalozz",
     1:"كلية التمريض و الطب",
@@ -20,4 +20,5 @@ const titles = {
     14:"علوم التاهيل",
     15:"علوم تربوية",
     16:"الهندسة",
+    17:"كلية الفنون",
 }
